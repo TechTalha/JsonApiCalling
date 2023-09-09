@@ -1,7 +1,7 @@
 import './globals.css'
-import { Kanit } from 'next/font/google'
+import { Dancing_Script } from 'next/font/google'
 
-const inter = Kanit({
+const inter = Dancing_Script({
   weight: '400',
   subsets: ['latin'] })
 
