@@ -1,8 +1,8 @@
 import './globals.css'
-import { Comfortaa } from 'next/font/google'
+import { Phudu } from 'next/font/google'
 
-const comfortaa = Comfortaa({
-  weight: '400',
+const phudu = Phudu({
+  weight: '500',
   subsets: ['latin'] })
 
 export const metadata = {
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={comfortaa.className}>{children}</body>
+      <body className={phudu.className}>{children}</body>
     </html>
   )
 }
