@@ -1,7 +1,7 @@
 import './globals.css'
-import { Phudu } from 'next/font/google'
+import { Exo_2 } from 'next/font/google'
 
-const phudu = Phudu({
+const exo = Exo_2({
   weight: '500',
   subsets: ['latin'] })
 
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={phudu.className}>{children}</body>
+      <body className={exo.className}>{children}</body>
     </html>
   )
 }
