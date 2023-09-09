@@ -1,7 +1,7 @@
 import './globals.css'
-import { Actor } from 'next/font/google'
+import { Kanit } from 'next/font/google'
 
-const inter = Actor({
+const inter = Kanit({
   weight: '400',
   subsets: ['latin'] })
 
