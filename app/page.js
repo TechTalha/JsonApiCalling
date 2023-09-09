@@ -16,7 +16,7 @@ const page = () => {
   return (
     <>
     <div class="flex flex-col text-center w-full mt-10 mb-10">
-          <h1 class="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900">Jsonplaceholder</h1>
+          <h1 class="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900 uppercase">Jsonplaceholder</h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fetching Data Using Jsonplaceholder Api</p>
         </div>
       {/* <h1 className='bg-slate-500 text-center text-6xl font-bold text-white border-b-2 p-5'> Fetch Data with Api</h1> */}
