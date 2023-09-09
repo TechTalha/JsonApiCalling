@@ -1,7 +1,7 @@
 import './globals.css'
-import { K2D } from 'next/font/google'
+import { Actor } from 'next/font/google'
 
-const inter = K2D({
+const inter = Actor({
   weight: '400',
   subsets: ['latin'] })
 
