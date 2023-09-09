@@ -1,7 +1,7 @@
 import './globals.css'
-import { Dancing_Script } from 'next/font/google'
+import { Comfortaa } from 'next/font/google'
 
-const inter = Dancing_Script({
+const comfortaa = Comfortaa({
   weight: '400',
   subsets: ['latin'] })
 
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={comfortaa.className}>{children}</body>
     </html>
   )
 }
